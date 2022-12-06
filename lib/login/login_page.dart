@@ -99,14 +99,14 @@ class _LogInPageState extends State<LogInPage> {
                 Container(
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFA6FD84),
+                    color: Colors.deepPurple,
                     borderRadius: BorderRadius.circular(30),
                   ),
                   child: const Center(
                     child: Text(
                       'Login',
                       style: TextStyle(
-                        color: Colors.black,
+                        color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
